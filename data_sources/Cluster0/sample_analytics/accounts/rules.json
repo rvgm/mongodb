@@ -1,0 +1,29 @@
+{
+    "collection": "accounts",
+    "database": "sample_analytics",
+    "filters": [
+        {
+            "name": "filter 1",
+            "query": {},
+            "apply_when": {}
+        }
+    ],
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {},
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        },
+        {
+            "name": "role 2",
+            "apply_when": {},
+            "insert": false,
+            "delete": false,
+            "search": true,
+            "additional_fields": {}
+        }
+    ]
+}

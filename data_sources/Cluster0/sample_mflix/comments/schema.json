@@ -1,0 +1,29 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "date": {
+            "bsonType": "date"
+        },
+        "email": {
+            "bsonType": "string"
+        },
+        "movie_id": {
+            "bsonType": "objectId"
+        },
+        "name": {
+            "bsonType": "string"
+        },
+        "r": {
+            "bsonType": "string"
+        },
+        "text": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "r"
+    ],
+    "title": "comment"
+}

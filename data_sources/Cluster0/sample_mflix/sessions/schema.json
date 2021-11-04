@@ -1,0 +1,20 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "jwt": {
+            "bsonType": "string"
+        },
+        "r": {
+            "bsonType": "string"
+        },
+        "user_id": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "r"
+    ],
+    "title": "session"
+}

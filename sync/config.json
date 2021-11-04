@@ -1,0 +1,19 @@
+{
+    "state": "enabled",
+    "partition": {
+        "key": "r",
+        "type": "string",
+        "required": true,
+        "permissions": {
+            "read": {
+                "%%partition": "%%user.id"
+            },
+            "write": {
+                "%%partition": "%%user.id"
+            }
+        }
+    },
+    "client_max_offline_days": 30,
+    "development_mode_enabled": false,
+    "service_name": "Cluster0"
+}

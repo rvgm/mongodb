@@ -1,0 +1,37 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "city": {
+            "bsonType": "string"
+        },
+        "loc": {
+            "bsonType": "object",
+            "properties": {
+                "x": {
+                    "bsonType": "double"
+                },
+                "y": {
+                    "bsonType": "double"
+                }
+            }
+        },
+        "pop": {
+            "bsonType": "int"
+        },
+        "r": {
+            "bsonType": "string"
+        },
+        "state": {
+            "bsonType": "string"
+        },
+        "zip": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "r"
+    ],
+    "title": "zip"
+}

@@ -1,0 +1,7 @@
+{
+    "enabled": true,
+    "mongo_service_name": "Cluster0",
+    "database_name": "r",
+    "collection_name": "r",
+    "user_id_field": "r"
+}

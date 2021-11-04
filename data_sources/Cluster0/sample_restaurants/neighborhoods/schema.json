@@ -1,0 +1,34 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "geometry": {
+            "bsonType": "object",
+            "properties": {
+                "coordinates": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "array",
+                        "items": {
+                            "bsonType": "array"
+                        }
+                    }
+                },
+                "type": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "name": {
+            "bsonType": "string"
+        },
+        "r": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "r"
+    ],
+    "title": "neighborhood"
+}

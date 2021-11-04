@@ -1,0 +1,11 @@
+{
+    "name": "gcm",
+    "type": "gcm",
+    "config": {
+        "senderId": "r"
+    },
+    "secret_config": {
+        "apiKey": "r"
+    },
+    "version": 1
+}
